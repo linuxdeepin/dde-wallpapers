@@ -3,7 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Clay Stan <claystan97@gmail.com>
 Build-Depends:
- debhelper-compat (= 13),
+ debhelper-compat (= 11),
  dde-api,
  imagemagick-6.q16
 Standards-Version: 4.5.1
