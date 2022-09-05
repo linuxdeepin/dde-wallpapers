@@ -10,26 +10,48 @@ Debian won't accept these pictures to the repo of Debian main area,
 
 so this project is created to replace deeppin-walllapers on Debian.
 
+## Dependencies
+You can also check the "Depends" provided in the `debian/control` file.
 
+### Build dependencies
+You can also check the "Build-Depends" provided in the `debian/control` file.
 
-## Contribute
+## Installation
 
-To contribute, send a PR with the uploaded to deepin directory as follows:
+### Build from source code
 
-wallpapername_by_yourname.jpg
+1. Make sure you have installed all dependencies.
+```bash
+sudo apt build-dep dde-wallpapers
+```
 
-This project is under the [MIT](./LICENSE) License. If you want to contribute,
+2. Build
+```bash
+mkdir build
+cd build
+cmake ..
+make
+```
 
-please ensure that the picture also complies with the MIT License,
+3. Install
+```bash
+sudo make install
+```
+## Getting help
 
-and please indicate the source of the picture
+Any usage issues can ask for help via
 
+* [Gitter](https://gitter.im/orgs/linuxdeepin/rooms)
+* [IRC channel](https://webchat.freenode.net/?channels=deepin)
+* [WiKi](https://wiki.deepin.org)
+* [Forum](https://bbs.deepin.org)
+* [Developer Center](https://github.com/linuxdeepin/dde-wallpapers) 
 
+## Getting involved
 
-## LICENSE
+We encourage you to report issues and contribute changes
 
-This is a free software licensed under [MIT](./LICENSE).
+- [**Contribution guide for developers**](https://github.com/linuxdeepin/developer-center/wiki/Contribution-Guidelines-for-Developers-en) 
 
-Please note that if you want to contribute to this project,
-
-Then your contribution is also licensed under [MIT](./LICENSE).
+## License
+dde-wallpapers is licensed under [MIT](LICENSE).
