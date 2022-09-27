@@ -18,9 +18,6 @@ Depends:
  ${shlibs:Depends},
  ${misc:Depends},
 Breaks: deepin-desktop-base (<< 2017.11.2)
-Replaces: deepin-wallpapers, deepin-wallpapers-nonfree
-Conflicts: deepin-wallpapers, deepin-wallpapers-nonfree
-Provides: deepin-wallpapers, deepin-wallpapers-nonfree
 Description: When users are ready to set their own desktop background,
  The dde Wallpaper provides a beautiful background pictures.
  It is part of Deepin software and DDE (Deepin Desktop Environment).
